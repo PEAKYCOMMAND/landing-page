@@ -1,0 +1,51 @@
+@media  screen and (max-width:1380px) {
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .area-meio img{
+        margin-right:0px;
+    }
+
+}
+
+@media  screen and (max-width:760px) {
+
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-titulo .area-esq-titulo{
+
+        margin-top: 50px;
+
+    }
+
+
+    .area-meio img{
+        margin-top: 20px;
+        margin-right:0px;
+        width: 400px;
+    }
+
+    .conteudo-titulo-abaixo{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+@media  screen and (max-width:400px) {
+    .none{
+        display: none;
+    }
+}
