@@ -17,6 +17,10 @@ body{
 
 }
 
+.none{
+    width:30px
+}
+
 .cabecalho a:hover{
     background-color: rgba(210, 105, 30, 0.459);
     transition: 0.3s;
