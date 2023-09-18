@@ -2,7 +2,14 @@
     #button-responsive{
         display: block;
     }
-
+  
+    #conteudo-escrito-one{
+      font-size: 25px;
+    }
+    
+    #main-title{
+      font-size: 50px;
+    }
     
 
     #button-responsive{
