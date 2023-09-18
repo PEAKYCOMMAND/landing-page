@@ -1,0 +1,33 @@
+@media screen and (max-width: 768px){
+    #button-responsive{
+        display: block;
+    }
+  
+    #conteudo-escrito-one{
+      font-size: 25px;
+    }
+    
+    #main-title{
+      font-size: 50px;
+    }
+    
+
+    #button-responsive{
+        display: block;
+    }
+
+    #navigation-one{
+        display: none;
+    }
+
+    #principal-one{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imglogopk{
+        width: 300px;
+
+    }
+}
+    
