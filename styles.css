@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+}
+
+
+#cabecalho{
+    margin-top: 10px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #00000072;
+}
+
+
+#list{
+    display: flex;
+    gap: 0px 29px;
+}
+
+.list-itens-a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #bf56ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    color: #bf56ff;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#img-one{
+    width: 80px;
+}
+
+
+#button-responsive{
+    display:none;
+    cursor: pointer;
+}
+
+
+.mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+
+#principal-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 120px;
+}
+
+#conteudo-escrito-one{
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.color-iam{
+    color: #bf56ff;
+}
+
+.color-js{
+    color:#e0e0e0;
+}
+
+#main-title{
+    font-size: 70px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 7px;
+
+}
+
+#button-more{
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(43, 44, 48);
+    
+}
+
+#button-more:hover{
+    background-color: #2624289c;
+    border: none;
+}
+
+
+#about-title-p{
+    margin-bottom: 20px;
+}
+
+#button-more a{
+    text-decoration: none;
+    color: #bf56ff;
+    font-size: 1.2rem;
+
+}
+
+
+#imglogopk{
+    border-radius: 300px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+/*///////////////////////////////////////////////*/
+
+.responsive-itens{
+    display: none;
+    height: 10vw;
+    text-align: center;
+    padding-top: 45px;
+    
+
+}
+
+.openjs{
+    rotate: 90deg;
+}
+
+.open{
+    display: block;
+}
+
+i{
+    color: #e0e0e0;
+    font-size: 30px;
+}
+
+#content-two{
+    color: #e0e0e0;
+    justify-content: center;
+    text-align: center;
+}
+
+#two-text{
+    text-align: center;
+}
+
+#two-text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.aspas{
+    color: #bf56ff;
+}
+
+#two-text h3{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
